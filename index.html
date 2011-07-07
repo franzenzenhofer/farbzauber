@@ -1,0 +1,61 @@
+<html>
+  <head><title>Farbzauber</title>
+  <link rel="icon" type="image/png" href="./img/favicon.png" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script> 
+   
+   
+	  	<script src="./inim.min.js"></script> 
+	  	<link href='http://fonts.googleapis.com/css?family=Tangerine:bold' rel='stylesheet' type='text/css'>
+
+	  	<link href='http://fonts.googleapis.com/css?family=Sniglet:800' rel='stylesheet' type='text/css'>
+	  		<link href='./default.css' rel='stylesheet' type='text/css'>
+	  		<script type="text/javascript" src="somelib.min.js"></script> 
+	  		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20774200-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	  	</head>
+  <body id="drop_zone">
+    <div id="content">
+      <div id="start" >
+          <h1><span id="logo">Farbzauber</span></h1>
+   
+          <div id="text" >
+            <div id="drop_text">Drag & drop an image here</div>
+            <div id="upload"> or <input type="file" id="files" name="files"  /></div>
+        </div>
+
+		
+         </div>
+<output id="list"></output>
+<div id="metatools">
+<div id="tools">
+  <div  class="circle draw" id="color" title="Color your picture" ></div>
+  <div  style="" class="circle draw" id="bw" title="Black & White" ></div>
+  <div   style="" class="circle draw" id="red" title="Red" ></div>
+  <div   style="" class="circle draw" id="green" title="Green"></div>
+  <div   style="" class="circle draw" id="blue" title="Blue" ></div>
+  <div   style="" class="circle draw" id="yellow" title="Yellow"></div>
+  <div   style="" class="circle draw" id="magenta" title="Magenta" ></div>
+  <div   style="" class="circle draw" id="aqua" title="Aqua"></div>
+   <div  class="circle  draw" id="invert" title="Invert your picture" ></div>
+  <div class="circle" id="b" title="Click to change the brush size" ></div>
+  <div  class="circle" id="d" title="Download your picture as PNG" ></div>
+</div>
+<div id="brushsize"><input type="range" min="4" max="150" step="1" value="50" id="sizeofbrush"></div>
+</div>
+<script src="./farbzauber.min.js"></script> 
+      </div>
+    </div>
+  </body>
+</html>

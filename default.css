@@ -1,0 +1,163 @@
+	body {
+	  display: -webkit-box;
+   -webkit-box-pack: center;
+   -webkit-box-align: center;
+   border-radius: 30px; border: 5px solid lightblue; border-style:dashed; text-align: center;
+   background-color:white;
+ 
+  margin:7px;
+  overflow:hidden;
+  font-family: verdana, arial, serif;
+   }
+	  	h1 { font-family: 'Tangerine', arial, serif; font-size:500%; font-weight:bold;}
+	  	#drop_text { 
+	  	font-family: 'Sniglet', arial, serif; font-size:400%; }
+	  	#text { font-family: verdana, arial, serif; font-size:80%;  }
+	  		#upload { margin-top:20%; }
+
+.shadow {
+-moz-box-shadow:0px 4px 18px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.5);
+}
+
+output
+{
+  cursor: crosshair;
+}
+
+a {
+
+}
+
+a img {
+border:none;
+}
+
+#notools
+{
+  background-color:lightgray;
+  -webkit-border-radius: 40px;
+  position:fixed;
+  bottom:30px;
+  left:30px;
+  display:none;
+  white-space:nowrap;
+}
+
+#tools{
+ position:fixed;
+ bottom:15px;
+ left:15px;
+ border:0px solid black;
+ background-color:lightgray;
+ -webkit-border-radius: 40px;
+ padding:2px;
+ display:none;
+ }
+
+.circle {
+display: block;
+width: 40px;
+height: 40px;
+-moz-border-radius: 40px;
+-webkit-border-radius: 40px;
+margin:2px;
+cursor: pointer;
+margin-bottom:3px;
+}
+
+.circle:hover {
+   -moz-box-shadow: 0 0 2px 2px yellow;
+  -webkit-box-shadow: 0 0 2px 2px yellow;
+   box-shadow: 0 0 2px 2px yellow;
+   
+}
+
+#bw {
+background: -webkit-gradient(linear, left top, right top, from(#000), to(#fff), color-stop(0.7, #fff));
+}
+
+#red {
+background: -webkit-gradient(linear, left top, right top, from(#000), to(rgb(255,0,0)), color-stop(0.7, rgb(255,0,0)));
+}
+
+#green {
+background: -webkit-gradient(linear, left top, right top, from(#000), to(rgb(0,255,0)), color-stop(0.7, rgb(0,255,0)));
+}
+
+#blue {
+background: -webkit-gradient(linear, left top, right top, from(#000), to(rgb(0,0,255)), color-stop(0.7, rgb(0,0,255)));
+}
+
+#yellow {
+background: -webkit-gradient(linear, left top, right top, from(#000), to(rgb(255,255,0)), color-stop(0.7, rgb(255,255,0)));
+}
+
+#magenta {
+background: -webkit-gradient(linear, left top, right top, from(#000), to(rgb(255,0,255)), color-stop(0.7, rgb(255,0,255)));
+}
+
+
+#aqua {
+background: -webkit-gradient(linear, left top, right top, from(#000), to(rgb(0,255,255)), color-stop(0.7, rgb(0,255,255)));
+}
+
+
+
+#color
+{
+ background:  -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgb(255,255,0)), to(rgb(0,255,255)),
+    color-stop(0.25, rgb(255,0,0)),
+    color-stop(0.50, rgb(0,255,0)),
+    color-stop(0.75, rgb(0,0,255))
+);
+
+}
+
+#invert
+{
+  background:  -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(rgb(255,255,0)), to(rgb(0,255,255)),
+    color-stop(0.25, rgb(255,0,0)),
+    color-stop(0.50, rgb(0,255,0)),
+    color-stop(0.75, rgb(0,0,255))
+);
+
+}
+
+#b
+{
+ background-image:url('./img/b.png');
+
+}
+
+#d
+{
+ background-image:url('./img/d.png');
+
+}
+
+.high
+{
+  -moz-box-shadow: 0 0 2px 2px blue !important;
+  -webkit-box-shadow: 0 0 2px 2px blue !important;
+   box-shadow: 0 0 2px 2px blue !important;
+}
+
+#brushsize
+{
+ 
+display:none;
+}
+
+#sizeofbrush {
+  width:300px;
+}
